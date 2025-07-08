@@ -30,7 +30,7 @@ nav {
 .inicio input {
     margin-top: 12px;
     border-radius: 5px;
-    width: 16%;
+    width: 30%;
     font-size: 20px;
     border: none;
     background-color: #1106af;
@@ -40,7 +40,7 @@ nav {
 }
 
 .inicio button {
-    width: 5%;
+    width: 10%;
     margin-top: 12px;
     border-radius: 5px;
     font-size: 15px;
