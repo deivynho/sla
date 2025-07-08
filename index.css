@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10vh;
+}
+.mobile-menu div {
+    width: 37px;
+    height: 4px;
+    background:  #1106af;
+    margin: 8px;
+}
+.mobile-menu {
+    position: fixed;
+    left: 0;
+    cursor: pointer;
+}
+
+.inicio input {
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    background-color: #1106af;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+}
+
+.inicio button {
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    background-color: #1106af;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+}
+
+.inicio:hover {
+    opacity: 0.7;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.cabecalho {
+    margin-top: 20px;
+    text-align: center;
+    border: solid 3px #1106af;
+}
+
+.mangas {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mangas button {
+    background-color: #1106af;
+    border-radius: 3px;
+    border: #1106af;
+}
+
